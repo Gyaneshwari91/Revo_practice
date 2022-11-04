@@ -1,0 +1,97 @@
+.Device1{
+position: absolute;
+left: 48px;
+top: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 28px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.BackIcon{
+    position: absolute;
+    left: 10px;
+    top: 11px; 
+    color:white;
+    font-size: 32px;
+}
+
+.allcharts{
+    position:absolute;
+    top:80px;
+  display: grid;
+  /* grid-template-rows: 400px 400px ; */
+  row-gap: 80px;
+  margin-left: 150px;
+  margin-right: 50px;
+ 
+}
+
+.CurrentLineChart{
+position: relative;
+top: 200px;
+
+width: 953px;
+height: 384px;
+background-color:rgba(46, 46, 51, 1);
+color:white;
+}
+
+.Barchart{
+  width: 953px;
+  height: 384px;
+  background-color:rgba(46, 46, 51, 1);
+  color:white;
+}
+
+.Bargraph_pos{
+  position: relative;
+    left:0px;
+    top: -10px;
+    width: 10vw;
+    height:25vh;
+}
+
+.crt_line_graph{
+    position: relative;
+    left:0px;
+    top: 150px;
+    width: 10vw;
+    height:25vh;
+}
+
+
+.CurrentLabel{
+    /* position:absolute;
+    left:10px;
+    top:5px; */
+    font-weight: 600;
+    color: white;
+}
+
+.CurrentValue{
+    position:relative;
+    left:800px;
+    top:5px;
+    font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  background: linear-gradient(225deg, #EDBAFF 0%, #A1FFFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.chartlists{
+  background-color: transparent;
+  list-style-type: none;
+}
