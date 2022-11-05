@@ -114,7 +114,7 @@ const   CurrentLineChart = (props) => {
 
   console.log(`Data recieved: ${dataa}`);
   return (
-    <div>
+    <div style={{display:"block", margin:"2px"}} className="linechart_div">
 		  
 			<Line data={dataa} height={400} options={options} className="crt_line_graph" />
       {/* <div className="CurrentValue">{rec_crt} A</div> */}

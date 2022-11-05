@@ -95,3 +95,10 @@ color:white;
   background-color: transparent;
   list-style-type: none;
 }
+
+.select_charts{
+  position: relative;
+  top: 60px;
+  left: 1100px;
+  text-align: left;
+}
